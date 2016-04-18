@@ -14,6 +14,7 @@ public class Application {
         
         System.out.println("Let's inspect the beans provided by Spring Boot:");
         System.out.println("First Branch Commit!");
+        System.out.println("Sec Branch Commit!");
         
         String[] beanNames = ctx.getBeanDefinitionNames();
         Arrays.sort(beanNames);
